@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rama0534/rama-portfolio/static/css/main.4563ed0a.css",
+    "main.js": "/rama0534/rama-portfolio/static/js/main.193ba7b1.js",
+    "static/js/453.4af6f209.chunk.js": "/rama0534/rama-portfolio/static/js/453.4af6f209.chunk.js",
+    "index.html": "/rama0534/rama-portfolio/index.html",
+    "main.4563ed0a.css.map": "/rama0534/rama-portfolio/static/css/main.4563ed0a.css.map",
+    "main.193ba7b1.js.map": "/rama0534/rama-portfolio/static/js/main.193ba7b1.js.map",
+    "453.4af6f209.chunk.js.map": "/rama0534/rama-portfolio/static/js/453.4af6f209.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4563ed0a.css",
+    "static/js/main.193ba7b1.js"
+  ]
+}
