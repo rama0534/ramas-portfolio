@@ -7,7 +7,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import Home from './components/Home';
+import Home from './components/home/Home';
 import Projects from './components/Projects';
 import About from './components/About';
 import Resume from './components/Resume';  
