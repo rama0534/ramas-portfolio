@@ -11,8 +11,8 @@ import Home from './components/home/Home';
 import Projects from './components/Projects';
 import About from './components/About';
 import Resume from './components/Resume';  
-import Footer from './components/Footer';
-import NavBar from './components/Navbar';
+import Footer from './components/headerNfooter/Footer';
+import NavBar from './components/headerNfooter/Navbar';
 import Blog from './components/Blog';
 import "bootstrap/dist/css/bootstrap.min.css"; 
 
@@ -25,7 +25,7 @@ function App() {
       <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blog />}/>
