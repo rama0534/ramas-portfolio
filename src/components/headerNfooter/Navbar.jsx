@@ -14,7 +14,6 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-
 import "./style.css";
 
 function NavBar() {
@@ -94,7 +93,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/blog" target="_blank" rel="noreferrer">
+              <Nav.Link href="/blog" rel="noreferrer">
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>

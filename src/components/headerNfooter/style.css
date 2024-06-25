@@ -136,6 +136,10 @@
     padding-top: 10px !important;
 }
 
+button:focus {
+    box-shadow: none !important;
+}
+
 .fork-btn-inner {
     line-height: 1.4em !important;
     background-color: #41e01e !important;
@@ -154,12 +158,6 @@
     display: none !important;
 }
 
-.faded-border {
-    border: 10px solid rgba(0, 0, 0, 0.5);
-    /* Semi-transparent black border */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    /* Optional: Add a shadow effect */
-}
 
 /* Footer */
 

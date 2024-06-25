@@ -15,11 +15,12 @@ html {
 }
 
 
-
-
-
 .social-icons {
     display: inline-block !important;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+button:focus {
+    box-shadow: none !important;
 }
