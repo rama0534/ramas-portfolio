@@ -1,35 +1,38 @@
- 
-import './App.css'; 
-import './style.css';
+import "./App.css";
+import "./style.css";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
-import Home from './components/home/Home';
-import Projects from './components/Projects';
-import About from './components/about/About';
-import Resume from './components/Resume';  
-import Footer from './components/headerNfooter/Footer';
-import NavBar from './components/headerNfooter/Navbar';
-import Blog from './components/Blog';
-import "bootstrap/dist/css/bootstrap.min.css"; 
+import Home from "./components/home/Home";
+import Projects from "./components/Projects";
+import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
+import Footer from "./components/headerNfooter/Footer";
+import NavBar from "./components/headerNfooter/Navbar";
+import Blog from "./components/Blog";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { pdfjs } from "react-pdf";
 
-
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/build/pdf.worker.min.mjs",
+  import.meta.url
+).toString();
 
 function App() {
   return (
-    <Router> 
-      <div className="App"> 
-      <NavBar />
+    <Router>
+      <div className="App">
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/blog" element={<Blog />}/>
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

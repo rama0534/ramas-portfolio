@@ -4,6 +4,7 @@ import SWE from "../../Assets/swe.png";
 import PreIntro from "./PreIntro";
 import Intro from "./Intro";
 import "./style.css";
+
 function Home() {
   return (
     <section>
