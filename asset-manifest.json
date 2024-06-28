@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ramas-portfolio/static/css/main.3d8521f0.css",
-    "main.js": "/ramas-portfolio/static/js/main.282d1c6e.js",
+    "main.css": "/ramas-portfolio/static/css/main.657d8983.css",
+    "main.js": "/ramas-portfolio/static/js/main.6484d6be.js",
     "static/js/453.d9cf7fdd.chunk.js": "/ramas-portfolio/static/js/453.d9cf7fdd.chunk.js",
     "static/media/rama.png": "/ramas-portfolio/static/media/rama.d3d59171d9bf16b01dbb.png",
     "static/media/pdf.worker.min.mjs": "/ramas-portfolio/static/media/pdf.worker.min.136f06cf8e3d75e00d91.mjs",
@@ -12,12 +12,12 @@
     "static/media/Resume.pdf": "/ramas-portfolio/static/media/Resume.5779c2acee28d739fc65.pdf",
     "static/media/ResumeDownload.pdf": "/ramas-portfolio/static/media/ResumeDownload.b481a94865f6d1c0dc7f.pdf",
     "index.html": "/ramas-portfolio/index.html",
-    "main.3d8521f0.css.map": "/ramas-portfolio/static/css/main.3d8521f0.css.map",
-    "main.282d1c6e.js.map": "/ramas-portfolio/static/js/main.282d1c6e.js.map",
+    "main.657d8983.css.map": "/ramas-portfolio/static/css/main.657d8983.css.map",
+    "main.6484d6be.js.map": "/ramas-portfolio/static/js/main.6484d6be.js.map",
     "453.d9cf7fdd.chunk.js.map": "/ramas-portfolio/static/js/453.d9cf7fdd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d8521f0.css",
-    "static/js/main.282d1c6e.js"
+    "static/css/main.657d8983.css",
+    "static/js/main.6484d6be.js"
   ]
 }
