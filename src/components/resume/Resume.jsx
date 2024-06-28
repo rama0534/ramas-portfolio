@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Container, Row } from "react-bootstrap";
 import "./style.css";
+import ParticleComponent from "../ParticleComponent";
 
 function Resume() {
   const [width, setWidth] = useState(120);
@@ -17,6 +18,7 @@ function Resume() {
   return (
     <div>
       <Container fluid className="resume-section">
+        <ParticleComponent />
         <Row className="resume">
           <Document file={resume} className="d-flex justify-content-center">
             <Page

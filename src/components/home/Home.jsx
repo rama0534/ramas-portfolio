@@ -4,11 +4,13 @@ import SWE from "../../Assets/swe.png";
 import PreIntro from "./PreIntro";
 import Intro from "./Intro";
 import "./style.css";
+import ParticleComponent from "../ParticleComponent";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+        <ParticleComponent />
         <Container className="home-content">
           <Row>
             <Col md={7} style={{ paddingBottom: 10 }}>

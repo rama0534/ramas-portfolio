@@ -16,7 +16,7 @@ function Footer() {
             Developed by{" "}
             <a
               href="https://github.com/rama0534/"
-              style={{ color: "white" }}
+              style={{ color: "#41e01e", textDecoration: "none" }}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,7 +29,7 @@ function Footer() {
             Copyright © {year}{" "}
             <a
               href="https://github.com/rama0534/"
-              style={{ color: "white" }}
+              style={{ color: "#41e01e", textDecoration: "none" }}
               target="_blank"
               rel="noopener noreferrer"
             >

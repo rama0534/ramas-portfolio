@@ -1,7 +1,12 @@
+import ParticlesComponent from "./ParticleComponent";
+
 function Projects() {
-    return ( 
-        <h1> Projects page</h1>
-     );
+  return (
+    <>
+      <ParticlesComponent />
+      <h1> Hellow world</h1>
+    </>
+  );
 }
 
 export default Projects;

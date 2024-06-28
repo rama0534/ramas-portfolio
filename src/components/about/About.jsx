@@ -3,6 +3,7 @@ import Intro from "./Intro";
 import Technologies from "./Technologies";
 import Tools from "./Tools";
 import ActivityCalendar from "./ActivityCalendar";
+import ParticleComponent from "../ParticleComponent";
 
 function About() {
   const githubUrl =
@@ -11,6 +12,7 @@ function About() {
 
   return (
     <Container fluid className="about-section">
+      <ParticleComponent />
       <Container>
         <Intro />
         <Technologies />
